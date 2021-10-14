@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ok.css">
+</head>
+<body>
+    <header id="headerr">
+        
+        <a href="#" class="logo">SUNBeez</a>
+        
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Banana</a></li>
+        <li><a href="#">KAIII</a></li>
+    </ul>   
+   
+        
+    </header>
+    <section>
+        
+         <img src="Untitled-6.png" id="forest">
+       <img src="MMOON.png" id="MMOON">
+        <h2 id="text"><span>Ngar Loe Ma Tr</span><br>Moon Light</h2>
+        <a href="#" id="btn">OKFUCKU</a>
+        
+        <img src="Wolf5.png" id="Wolf5">
+         
+        
+    </section>
+    <div class="sec">
+    <h3>Scrolling Effects MMSp</h3>
+   <p>
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam molestias cupiditate perspiciatis tempore autem soluta enim aspernatur ipsa, eaque dolorum similique suscipit quasi qui adipisci impedit ipsam atque eius omnis inventore id exercitationem odit! Sunt minima recusandae commodi nostrum officiis deserunt, eum optio. Itaque eaque sit laboriosam! Necessitatibus voluptatibus nulla deserunt dolore suscipit? Quisquam consectetur facere eius cumque rem voluptatibus enim vel, placeat, impedit voluptatem architecto animi quae consequuntur fugiat ab assumenda ex sequi. Aliquid, earum fugit inventore deserunt atque molestias sed dolore! Beatae, exercitationem ut. Modi rem officiis, est praesentium error quasi asperiores iusto quas! Nulla commodi recusandae laboriosam aliquid tenetur facere non veritatis! Deserunt aperiam eius cumque quo officia! Facere, ipsum sunt delectus id odio explicabo sequi, numquam accusamus distinctio, repudiandae quas voluptatem ullam! Ab alias debitis recusandae dolorum quod quos veniam aliquam dolor. Officiis laboriosam numquam dolorum explicabo illo consectetur facere. Odit sequi culpa expedita nisi, iste, molestiae ipsam tempora hic nam praesentium ex. Libero voluptatibus iure recusandae id, ex facere exercitationem illum facilis quam quae! Delectus quisquam id hic porro consequuntur tenetur! Placeat dolorem voluptatem nemo laudantium officiis neque voluptatibus totam harum ducimus eius odit dolores vero velit vel eos expedita voluptatum, tempore aliquid dignissimos atque cupiditate. A nostrum harum modi nam eveniet commodi sed inventore rem id dolores ut, vero provident! Voluptatibus temporibus unde saepe! Mollitia, perspiciatis. A eveniet explicabo neque eum et incidunt cum doloribus eligendi necessitatibus mollitia ut provident molestias vitae dicta quo exercitationem laborum, iure tempora fugit est enim. Voluptas fuga numquam delectus neque nobis unde, illum ullam officia repudiandae quas itaque laudantium, recusandae nulla harum? Beatae eligendi, voluptatibus recusandae omnis enim nemo iure praesentium quos expedita, ad sequi nostrum, fuga est dolorem odit minima tenetur. Exercitationem ullam non ipsa. Harum ipsa quae quidem modi corrupti aspernatur, temporbr
+   </p>
+   <p class="lee">LEE BL NW</p>
+    </div>
+    <script>
+        let text = document.getElementById('text');
+        let MMOON = document.getElementById('MMOON');
+        let btn = document.getElementById('btn');
+        let forest = document.getElementById('forest');
+        let Wolf5 = document.getElementById('Wolf5');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+
+            text.style.top = 50 + value * -0.5 + '%';
+            MMOON.style.top = value * 0.55 + 'px';
+            btn.style.marginTop= value * 1.5 + 'px';
+            forest.style.top = value * 0.25 + 'px';
+            Wolf5.style.top = value * -0.12 + 'px';
+            header.style.top = value *0.5 + 'p';
+            
+        })
+      
+    </script>
+    
+</body>
+</html>

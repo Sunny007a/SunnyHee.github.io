@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap");
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+}
+body{
+    
+    background: linear-gradient(#2b1055,#7597de);
+    min-height: 100vh;
+
+
+}
+#headerr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+
+#headerr .logo{
+    color: #1785b1;
+    font-weight: 700;
+    font-size: 2cm;
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #1785b1;
+    border-radius: 20px;
+    
+    background: transparent;
+    
+}
+header ul li a:hover{
+    background: #1785b1;
+    color: #fff;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0f022e,transparent);
+    z-index: 10;
+}
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    pointer-events: none;
+}
+section #text{
+    position: absolute;
+    margin-top: -20px;
+    color: #1785b1;
+    font-size: 8vw;
+    text-align: center;
+    line-height: 0.55cm;
+    font-family: 'Londrina Solid',cursive;
+    transform: translateY(-50%);
+}
+section #text span{
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -35px;
+    font-size: 0.60cm;
+    color: #aab3c5;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+#btn{
+    text-decoration: none;
+    display: inline;
+    margin-top: -50px;
+    padding: 8px 50px;
+    background: rgb(19, 2, 58);
+    color: #40c9ff;
+    font-size: 1.2cm;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #0f022e;
+}
+.sec h3{
+    font-size: 2cm;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.sec p{
+    font-size: 1cm;
+    color: #fff;
+}
+p .lee{
+    color: #4ae4ff;
+}
